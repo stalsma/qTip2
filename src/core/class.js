@@ -66,7 +66,7 @@ PROTOTYPE.render = function(show) {
 		'tracking': posOptions.target === 'mouse' && posOptions.adjust.mouse,
 
 		/* ARIA specific attributes */
-		'role': 'alert',
+		'role': 'tooltip',
 		'aria-live': 'polite',
 		'aria-atomic': FALSE,
 		'aria-describedby': this._id + '-content',
